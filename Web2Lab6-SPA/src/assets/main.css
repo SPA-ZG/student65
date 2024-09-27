@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+    --primary: #83f9ab;
+    --secondary: #00ddff;
+    --light-primary: #befb89;
+    --dark-primary: #f9f871;
+    --background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--secondary);
+    min-height: 100vh;
+}
+
+#app {
+    min-height: 100vh;
+}
+
+.shadow {
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
